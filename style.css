@@ -5,10 +5,15 @@
     --Gray-950: hsl(0, 0%, 7%);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Figtree", sarif;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     background-color: var(--Yellow);
 }
@@ -20,7 +25,7 @@ main {
 }
 
 .container {
-    width: 25%;
+    width: 25vw;
     background-color: var(--White);
     border-radius: 18px;
     border: 2px solid var(--Gray-500);
@@ -28,28 +33,32 @@ main {
     box-shadow: 10px 10px var(--Gray-950);
 }
 
-img {
+.main-img {
+    width: 21vw;
     border-radius: 10px;
+    margin-bottom: 1.8vh;
 }
 
 .h2_1 {
-    width: 20%;
-    border: 1px solid var(--Yellow);
+    max-width: fit-content;
+    min-width: auto;
     border-radius: 5px;
     padding: 0.25rem;
     background-color: var(--Yellow);
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 800;
+    margin-bottom: 1.2vh;
 }
 
 p {
     font-weight: 500;
+    margin-bottom: 1vh;
 }
 
 h1 {
     font-weight: 800;
-    font-size: 27px;
-    white-space: nowrap;
+    font-size: 1.6rem;
+    margin-bottom: 1vh;
 }
 
 h1:hover {
@@ -58,21 +67,21 @@ h1:hover {
 
 .para {
     opacity: 0.6;
+    margin-bottom: 2vh;
 }
 
 .avatar {
     float: left;
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 
 h3 {
-    margin-top: 36px;
+    margin-top: 4vh;
     font-weight: 800;
 }
 
 .attribution {
     clear: both;
     margin-top: 40px;
-    white-space: nowrap;
     font-size: 13px;
 }
